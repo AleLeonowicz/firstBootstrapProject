@@ -22,7 +22,22 @@
             <div class="col-8">
                 <div class="card signin-card">
                     <div class="card-body">
-                        <img src="assets/AleAle%20500.png">
+                        <img src="assets/AleAle%20500.png" class="img-fluid signin-img">
+                        <form class="signin-form">
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="emailInput">
+                            </div>
+                            <div class="mb-3">
+                                <label for="passwordInput" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="passwordInput">
+                            </div>
+                            <button type="submit" class="btn btn-primary buttonSignIn">Submit</button>
+                            <div class="mb-3 form-check  checkSignIn">
+                                <input type="checkbox" class="form-check-input" id="checkRememberMe">
+                                <label class="form-check-label" for="checkRememberMe">Remember Me Need help?</label>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

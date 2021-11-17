@@ -1,17 +1,45 @@
 .signin-body {
-    background-color: #e6f2ff;
+    background-color: #0c2233;
 }
 
 .container.signin-container {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 
 .card.signin-card {
-    padding: 40px 0px 20px;
+    padding: 2rem;
     background-color: #f4f4f4;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(255, 255, 255, .5);
+    -moz-box-shadow: 2px 2px 5px rgba(255, 255, 255, .5);
 
+}
+
+.card-body {
+    margin: auto;
+}
+
+
+
+img.signin-img {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+.signin-form {
+    margin: auto;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.buttonSignIn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+.checkSignIn {
+    margin-top: 1rem;
 }
