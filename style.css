@@ -24,8 +24,8 @@
 
 img.signin-img {
     display: block;
-    width: 40%;
     margin: auto;
+    width: 45%;
 }
 
 .signin-form {
@@ -43,3 +43,22 @@ img.signin-img {
 .checkSignIn {
     margin-top: 1rem;
 }
+
+.checkboxSignIn {
+    cursor: pointer;
+}
+
+.form-check-label a {
+    text-decoration: none;
+}
+
+.createNewAccount {
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #ffff;
+
+}
+
